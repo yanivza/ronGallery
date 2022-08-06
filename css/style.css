@@ -58,8 +58,13 @@ img{
 }
 
 @media (max-width: 918px) {
+ #photo_bored {
+
+
+        width: 100%;
+    }
     .photo_div {
-        max-width:30%;
+        max-width:70%;
         padding-bottom: 10px;
         padding-left: 10px;
     }

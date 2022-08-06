@@ -14,7 +14,7 @@ function make_div_for_img_and_append(img){
     let img_div=document.createElement("div")
     img_div.className="photo_div"
     let img_pc=document.createElement("img")
-    img_pc.src = "/css/img/"+img+".jpg";
+    img_pc.src = "./css/img/"+img+".jpg";
     img_div.append(img_pc)
     bored_photo.append(img_div)
 
